@@ -377,7 +377,7 @@ ${input?("并按照用户的指引："+input):""}
 	UpdatePic.url="UpdatePic@"+agentURL
 	
 	segs["AskDelete"]=AskDelete=async function(input){//:1HIAQG6B66
-		let prompt=("缺点药删除这个段落么？")||input;
+		let prompt=("确定要删除这个段落么？")||input;
 		let button1=("确认删除")||"OK";
 		let button2=("取消")||"Cancel";
 		let button3="";
@@ -532,7 +532,7 @@ ${input?("并按照用户的指引："+input):""}
 	Choose.url="Choose@"+agentURL
 	
 	segs["AskDeletePic"]=AskDeletePic=async function(input){//:1HIBFEM6P3
-		let prompt=("缺点药删除这个段落么？")||input;
+		let prompt=("确定要删除这个插图么？")||input;
 		let button1=("确认删除")||"OK";
 		let button2=("取消")||"Cancel";
 		let button3="";
@@ -1675,7 +1675,7 @@ export{EditStory};
 //						"desc": "这是一个AISeg。",
 //						"codes": "false",
 //						"mkpInput": "$$input$$",
-//						"prompt": "缺点药删除这个段落么？",
+//						"prompt": "确定要删除这个段落么？",
 //						"outlets": {
 //							"type": "array",
 //							"attrs": [
@@ -2271,7 +2271,7 @@ export{EditStory};
 //						"desc": "这是一个AISeg。",
 //						"codes": "false",
 //						"mkpInput": "$$input$$",
-//						"prompt": "缺点药删除这个段落么？",
+//						"prompt": "确定要删除这个段落么？",
 //						"outlets": {
 //							"type": "array",
 //							"attrs": [
